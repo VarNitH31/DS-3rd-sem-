@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+//LINKED LIST
 struct node {
     int data;
     struct node *next;
@@ -99,7 +99,6 @@ int main(){
     display(head);
     delete_pos(head,2);
     display(head);
-
 
 return 0;
 }
