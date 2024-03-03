@@ -32,7 +32,7 @@ int main()
 {
     char exp[100];
     char *e, x;
-    printf("Enter the expression : ");
+    printf("Enter the expression: ");
     scanf("%s",exp);
     printf("\n");
     e = exp;
